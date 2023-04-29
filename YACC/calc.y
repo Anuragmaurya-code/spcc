@@ -1,6 +1,5 @@
 %{
     #include<stdio.h>
-    int flag = 0;
 %}
 
 %token NUMBER
@@ -33,5 +32,4 @@ void main(){
 
 int yyerror(){
     printf("Invalid Expression\n");
-    flag = 1;
 }

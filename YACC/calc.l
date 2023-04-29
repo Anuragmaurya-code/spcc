@@ -9,7 +9,7 @@ extern int yylval;
     yylval = atoi(yytext);
     return NUMBER;
 }
-[\t];
+[\t] ;
 [\n] return 0;
 . return yytext[0];
 %%
