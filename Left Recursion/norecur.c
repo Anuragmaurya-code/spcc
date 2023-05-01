@@ -38,3 +38,5 @@ int main()
 	else
 		printf("\n This Grammar is not LEFT RECURSIVE.\n");
 	}
+	 //E->aA|b
+	 //A->Aa|b
