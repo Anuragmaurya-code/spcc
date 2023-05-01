@@ -1,0 +1,9 @@
+for yacc
+    flex calc.l or lex calc.l
+    yacc calc.y
+    gcc lex.yy.cc y.tab.c -w
+    ./a.out
+for lex
+    flex filename.l
+    gcc lex.yy.c
+    ./a.out
